@@ -34,4 +34,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: hatta2121/golang_hello:latest
+        tags: hatta1212/golang_hello:latest
