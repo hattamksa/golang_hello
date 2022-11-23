@@ -1,6 +1,6 @@
 node('built-in'){
 // pipeline{
-   cleanWs()
+   cleanWs() 
    
     stage('Checkout'){
         checkout([$class: 'GitSCM', branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: '7859730a-ccbf-441f-9574-062f5543a813', url: 'git@github.com:hattamksa/golang_hello.git']]])
