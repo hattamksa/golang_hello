@@ -1,4 +1,4 @@
 # golang_hello
 test
 test2
-test 6
+test 7
